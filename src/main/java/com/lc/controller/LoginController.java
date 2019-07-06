@@ -18,11 +18,15 @@ public class LoginController {
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login() {
+        int a=0;
+        System.out.println("sssss");
         return "login";
     }
 
     @RequestMapping("/")
     public String root() {
+        int a=0;
+        System.out.println("sssssssssssssssssssssssss");
         return "index2";
     }
 
